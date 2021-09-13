@@ -1,9 +1,8 @@
-LIB_PATH = '../lib'
-require "#{LIB_PATH}/dice"
-require "#{LIB_PATH}/game"
-require "#{LIB_PATH}/house"
-require "#{LIB_PATH}/map"
-require "#{LIB_PATH}/player"
+require_relative '../lib/dice'
+require_relative '../lib/game'
+require_relative '../lib/house'
+require_relative '../lib/map'
+require_relative '../lib/player'
 
 game = Game.new(40)
 
